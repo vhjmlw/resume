@@ -105,3 +105,7 @@ s,i,em{font-style:normal;text-decoration:none;}
 /*slide2第二张幻灯片开始*/
 
 /*slide2第二张幻灯片结束*/
+#slide2 #ability li{
+	font-size: 19px;
+	padding: 5px 0;
+}
