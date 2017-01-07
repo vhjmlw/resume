@@ -1,190 +1,256 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
-		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/league.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-		<!-- 自定义的CSS样式文件 -->
-		<link rel="stylesheet" type="text/css" href="css/app.css">
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section id="slide1">
-					<header id="header" class="clearfix">
-						<div class="portrait fl" id="portrait"><a href="http://www.jianlei.info"></a></div>
-						<div class="instruction fr">
-							<p>张建磊</p>
-							<!-- <span>1990-06-16</span><br> -->
-							<span>15236288051</span><br>
-							<span>lei1028362931@gmail.com</span>
-						</div>
-					</header>
-					<p>{{ 爱钻研，爱技术 }}</p>
-					<!-- <p>I am a coder and i'm marching on</p> -->
-					<footer id="footer" class="clearfix">
-						<div class="qrcode fl">
-							<img src="images/blog.jpg"	>
-						</div>
-						<div class="instruction fr">
-							<p>河南科技大学</p>
-							<span>2010/9--2014/6</span><br>
-							<span>本科</span><br>
-							<span>中共党员</span>
-						</div>
-					</footer>
-					<aside class="notes">按空格继续哦</aside>
-				</section>
-				<section id="slide2">
-					<p>专业技能</p>
-					<ul id="ability">
-						<li>熟悉雅虎军规及网页性能优化</li>
-						<li>掌握CSS3和HTML5</li>
-						<li>掌握LESS预处理语言</li>
-						<li>精通JavaScript语法，熟悉<a href="http://es6.ruanyifeng.com/">ES6</a>的新特性，能够熟练地使用原生语法进行开发</li>
-						<li>掌握jQuery前端框架</li>
-						<li>掌握Angular前端框架，了解其模块化、MVC思想，有<a href="https://vhjmlw.github.io/project-site">TODOMVC上手作品</a></li>
-						<li>掌握gulp自动化工具，能够自己手动搭建<a href="https://github.com/vhjmlw/webstorm-practice/tree/master/自动化工作流程搭建">自动化工作流程</a></li>
-						<li>掌握sea.js、require.js等前端框架及其模块化开发思想</li>
-						<li>熟悉Java语言及其面向对象思想</li>
-						<li>掌握<a href="https://github.com/vhjmlw/webstorm-practice/tree/master/webstorm-practice#标题">MarkDown语法</a>，能够熟练的读写文档，具有英文文档阅读能力</li>
-						<li>了解Node.js</li>
-						<li>爱好Linux，熟练Linux常用命令</li>
-					</ul>
-				</section>
-				<section id="slide3">
-					<section id="slide3_1">
-						<p>项目作品</p>
-					<p>⬇️</p>
-					</section>
-					<section id="slide3_2">
-						我是一个作品的哦😀
-					</section>
-				</section>
-			</div>
-		</div>
+    <title>reveal.js</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/league.css">
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
-		<script type="text/javascript" src="js/app.js"></script>
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- 自定义的CSS样式文件 -->
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				// Display controls in the bottom right corner
-			    controls: true,
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section id="slide1">
+                <header id="header" class="clearfix">
+                    <div class="portrait fl" id="portrait">
+                        <a href="http://www.jianlei.info"></a>
+                    </div>
+                    <div class="instruction fr">
+                        <p>张建磊</p>
+                        <!-- <span>1990-06-16</span><br> -->
+                        <span>15236288051</span><br>
+                        <span>lei1028362931@gmail.com</span>
+                    </div>
+                </header>
+                <p class="fragment fade-down">{{ 爱钻研，爱技术 }}</p>
+                <!-- <p>I am a coder and i'm marching on</p> -->
+                <footer id="footer" class="clearfix">
+                    <div class="qrcode fl">
+                        <img src="images/blog.jpg">
+                    </div>
+                    <div class="instruction fr">
+                        <p>河南科技大学</p>
+                        <span>2010/9--2014/6</span><br>
+                        <span>本科</span><br>
+                        <span>中共党员</span>
+                    </div>
+                </footer>
+                <aside class="notes">按空格继续哦</aside>
+            </section>
+            <section id="slide2">
+                <section id="slide2_1">
+                    <p>专业技能</p>
+                    <ul>
+                        <li>熟悉雅虎军规及网页性能优化</li>
+                        <li>掌握CSS3和HTML5</li>
+                        <li>掌握LESS预处理语言</li>
+                        <li>精通JavaScript语法，熟悉<a href="http://es6.ruanyifeng.com/">ES6</a>的新特性，能够熟练地使用原生语法进行开发</li>
+                        <li>掌握jQuery前端框架</li>
+                        <li>掌握Angular前端框架，了解其模块化、MVC思想，有<a href="https://vhjmlw.github.io/project-site">TODOMVC上手作品</a></li>
+                        <li>掌握gulp自动化工具，能够自己手动搭建<a href="https://github.com/vhjmlw/webstorm-practice/tree/master/自动化工作流程搭建">自动化工作流程</a></li>
+                        <li>掌握sea.js、require.js等前端框架及其模块化开发思想</li>
+                        <li>熟悉Java语言及其面向对象思想</li>
+                        <li>掌握<a href="https://github.com/vhjmlw/webstorm-practice/tree/master/webstorm-practice#标题">MarkDown语法</a>，能够熟练的读写文档，具有英文文档阅读能力</li>
+                        <li>了解Node.js</li>
+                        <li>爱好Linux，熟练Linux常用命令</li>
+                    </ul>
+                </section>
+                <section id="slide2_2">
 
-			    // Display a presentation progress bar
-			    progress: true,
+                </section>
+            </section>
+            <section id="slide3">
+                <section id="slide3_1">
+                    <p>项目作品</p>
+                    <p>⬇️</p>
+                </section>
+                <section id="slide3_2">
+                    <p>个人博客</p>
+                    <p class="fragment fade-down"><a href="http://www.jianlei.info">
+							http://www.jianlei.info
+						</a></p>
+                    <span>博客使用Hexo+GitHub Pages搭建</span><br>
+                    <span>用来记录日常开发中的心得体会</span><br>
+                    <span>方便需要的时候复习查找</span>
+                </section>
+                <section id="slide3_3">
+                    <p>TODOMVC</p>
+                    <p class="fragment fade-down">
+                        <a href="https://vhjmlw.github.io/project-site">
+								https://vhjmlw.github.io/project-site
+							</a>
+                    </p>
+                    <div>
+                        <p>该项目使用AngularJS前端框架搭建，是一个TODO类的应用，可以记录日常生活中的待办事项，已经完成的事情等，加入了本地化存储的功能。</p>
+                        <p>通过该作品，熟悉了Angular框架的常用API及其MVC和模块化思想，掌握了路由、指令的使用，体会了双向数据绑定的便捷。</p>
+                    </div>
+                </section>
+                <section id="slide3_4">
+                    <p>手写动画特效集合</p>
+                    <ul class="fragment fade-down">
+                        <li><a href="http://www.jianlei.info/webstorm-practice/webstorm-practice/day32 前端基本功js特效3/轮播图/简单焦点图css.html">轮播图一</a></li>
+                        <li><a href="http://www.jianlei.info/webstorm-practice/webstorm-practice/day33 前端基本功js特效4/手风琴效果/手风琴效果.html">轮播图二</a></li>
+                        <li><a href="http://www.jianlei.info/webstorm-practice/webstorm-practice/day47CSS3第五天/长方体轮播图/长方体轮播图.html">轮播图三</a></li>
+                        <li><a href="http://www.jianlei.info/webstorm-practice/webstorm-practice/day47CSS3第五天/立方体切割轮播图/立方体切割轮播图.html">轮播图四</a></li>
+                        <li><a href="http://www.jianlei.info/webstorm-practice/webstorm-practice/day30 前端基本功js特效1/筋斗云特效/筋斗云特效.html">导航栏特效一</a></li>
+                        <li><a href="http://www.jianlei.info/webstorm-practice/webstorm-practice/day47CSS3第五天/立体导航/立体导航.html">导航栏特效二</a></li>
+                        <li><a href="http://www.jianlei.info/webstorm-practice/webstorm-practice/day56canvas第三天/Konva柱状图-面向对象版/Konca柱状图-面向对象版.html">canvas特效一</a></li>
+                        <li><a href="http://www.jianlei.info/webstorm-practice/webstorm-practice/day56canvas第三天/Konva饼状图-面向对象版/Konva饼状图-面向对象版.html">canvas特效二</a></li>
+                        <li><a href="http://www.jianlei.info/webstorm-practice/webstorm-practice/day56canvas第三天/传智官网特效/传智官网特效.html">canvas特效三</a></li>
+                        <li><a href="http://www.jianlei.info/webstorm-practice/webstorm-practice/day47CSS3第五天/鼠标移入 移出案例/鼠标移入 移出案例.html">CSS3特效一</a></li>
+                        <li><a href="http://www.jianlei.info/webstorm-practice/webstorm-practice/day47CSS3第五天/360音乐导航/360音乐导航.html">CSS3特效二</a></li>
+                        <li><a href="http://www.jianlei.info/webstorm-practice/webstorm-practice/day45CSS3第三天/animation动画应用/animation动画应用.html">CSS3特效三</a></li>
+                    </ul>
+                    <div class="note">
+                        <p>自己手写的特效有很多，无法一一列举，GitHub的<a href="https://github.com/vhjmlw/webstorm-practice">webstorm-practice仓库</a>已经设置了GitHub Pages可以直接查看</p>
+                    </div>
+                </section>
+            </section>
+            <section id="slide4">
+                <p>I am a coder and i'm maching on</p>
+                <span>点击以下可以了解我更多哦⬇️</span><br>
+                <span><a href="https://github.com/vhjmlw">GitHub</a></span>
+                <span><a href="http://www.jianlei.info">Blog</a></span>
+                <span><a href="https://www.zhihu.com/people/zhang-jian-lei-7">知乎</a></span>
+                <span><a href="https://www.facebook.com/profile.php?id=100005888440355">Facebook</a></span><br>
+                <span><a href="http://stackoverflow.com/users/7356556/%E5%BC%A0%E5%BB%BA%E7%A3%8A">stackoverflow</a></span>
+                <span><a href="https://gold.xitu.io/user/578d802ca633bd0058ac7e9a">掘金</a></span>
+            </section>
+        </div>
+    </div>
 
-			    // Display the page number of the current slide
-			    slideNumber: false,
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 
-			    // Push each slide change to the browser history
-			    history: true,
+    <script>
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            // Display controls in the bottom right corner
+            controls: true,
 
-			    // Enable keyboard shortcuts for navigation
-			    keyboard: true,
+            // Display a presentation progress bar
+            progress: true,
 
-			    // Enable the slide overview mode
-			    overview: true,
+            // Display the page number of the current slide
+            slideNumber: false,
 
-			    // Vertical centering of slides
-			    center: true,
+            // Push each slide change to the browser history
+            history: true,
 
-			    // Enables touch navigation on devices with touch input
-			    touch: true,
+            // Enable keyboard shortcuts for navigation
+            keyboard: true,
 
-			    // Loop the presentation
-			    loop: true,
+            // Enable the slide overview mode
+            overview: true,
 
-			    // Change the presentation direction to be RTL
-			    rtl: false,
+            // Vertical centering of slides
+            center: true,
 
-			    // Randomizes the order of slides each time the presentation loads
-			    shuffle: false,
+            // Enables touch navigation on devices with touch input
+            touch: true,
 
-			    // Turns fragments on and off globally
-			    fragments: true,
+            // Loop the presentation
+            loop: true,
 
-			    // Flags if the presentation is running in an embedded mode,
-			    // i.e. contained within a limited portion of the screen
-			    embedded: false,
+            // Change the presentation direction to be RTL
+            rtl: false,
 
-			    // Flags if we should show a help overlay when the questionmark
-			    // key is pressed
-			    help: true,
+            // Randomizes the order of slides each time the presentation loads
+            shuffle: false,
 
-			    // Flags if speaker notes should be visible to all viewers
-			    showNotes: true,
+            // Turns fragments on and off globally
+            fragments: true,
 
-			    // Number of milliseconds between automatically proceeding to the
-			    // next slide, disabled when set to 0, this value can be overwritten
-			    // by using a data-autoslide attribute on your slides
-			    autoSlide: 0,
+            // Flags if the presentation is running in an embedded mode,
+            // i.e. contained within a limited portion of the screen
+            embedded: false,
 
-			    // Stop auto-sliding after user input
-			    autoSlideStoppable: true,
+            // Flags if we should show a help overlay when the questionmark
+            // key is pressed
+            help: true,
 
-			    // Use this method for navigation when auto-sliding
-			    autoSlideMethod: Reveal.navigateNext,
+            // Flags if speaker notes should be visible to all viewers
+            showNotes: true,
 
-			    // Enable slide navigation via mouse wheel
-			    mouseWheel: true,
+            // Number of milliseconds between automatically proceeding to the
+            // next slide, disabled when set to 0, this value can be overwritten
+            // by using a data-autoslide attribute on your slides
+            autoSlide: 0,
 
-			    // Hides the address bar on mobile devices
-			    hideAddressBar: true,
+            // Stop auto-sliding after user input
+            autoSlideStoppable: true,
 
-			    // Opens links in an iframe preview overlay
-			    previewLinks: false,
+            // Use this method for navigation when auto-sliding
+            autoSlideMethod: Reveal.navigateNext,
 
-			    // Transition style
-			    transition: 'zoom', // none/fade/slide/convex/concave/zoom
+            // Enable slide navigation via mouse wheel
+            mouseWheel: true,
 
-			    // Transition speed
-			    transitionSpeed: 'default', // default/fast/slow
+            // Hides the address bar on mobile devices
+            hideAddressBar: true,
 
-			    // Transition style for full page slide backgrounds
-			    backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+            // Opens links in an iframe preview overlay
+            previewLinks: false,
 
-			    // Number of slides away from the current that are visible
-			    viewDistance: 3,
+            // Transition style
+            transition: 'zoom', // none/fade/slide/convex/concave/zoom
 
-			    // Parallax background image
-			    parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+            // Transition speed
+            transitionSpeed: 'default', // default/fast/slow
 
-			    // Parallax background size
-			    parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
+            // Transition style for full page slide backgrounds
+            backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
 
-			    // Number of pixels to move the parallax background per slide
-			    // - Calculated automatically unless specified
-			    // - Set to 0 to disable movement along an axis
-			    parallaxBackgroundHorizontal: null,
-			    parallaxBackgroundVertical: null,
+            // Number of slides away from the current that are visible
+            viewDistance: 3,
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+            // Parallax background image
+            parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+            // Parallax background size
+            parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
+
+            // Number of pixels to move the parallax background per slide
+            // - Calculated automatically unless specified
+            // - Set to 0 to disable movement along an axis
+            parallaxBackgroundHorizontal: null,
+            parallaxBackgroundVertical: null,
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [{
+                src: 'plugin/markdown/marked.js'
+            }, {
+                src: 'plugin/markdown/markdown.js'
+            }, {
+                src: 'plugin/notes/notes.js',
+                async: true
+            }, {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                callback: function() {
+                    hljs.initHighlightingOnLoad();
+                }
+            }]
+        });
+    </script>
+</body>
+
 </html>
