@@ -169,7 +169,7 @@ outerGroup4.addToGroupOrLayer(outerAnimateGroup);
 outerGroup5.addToGroupOrLayer(outerAnimateGroup);
 animateLayer.draw();
 
-var framePerSecond = 40; //设置动画的帧数,每秒钟执行的帧数
+var framePerSecond = 20; //设置动画的帧数,每秒钟执行的帧数
 var animation = new Konva.Animation(function(frame) {
     //公式,计算每frame.timeDiff毫秒内执行的动画的帧数,frame.timeDiff相当于setInterval中的时间间隔
     var angle = frame.timeDiff * framePerSecond / 1000;
@@ -197,5 +197,5 @@ animateLayer.on("mouseover", function(event) {
     framePerSecond = 10;
 });
 animateLayer.on("mouseout", function() {
-    framePerSecond = 40;
+    framePerSecond = 20;
 })
