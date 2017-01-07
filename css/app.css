@@ -1,4 +1,4 @@
-@chartset "UTF-8"
+@charset "UTF-8"
 /*css 初始化 */
 
 html,
@@ -234,6 +234,62 @@ em {
     font-size: 19px;
     padding: 5px 0;
 }
+
+#slide2 #slide2_2 li {
+    list-style: none;
+}
+
+#slide2 #slide2_2 li div {
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 300px;
+    background: rgba(255, 255, 255, .3);
+    border-radius: 20px;
+    margin: 5px 0;
+}
+
+
+/*#slide2 #slide2_2 li .html {
+    width: 400px;
+}
+
+#slide2 #slide2_2 li .css {
+    width: 400px;
+}
+
+#slide2 #slide2_2 li .javascript {
+    width: 400px;
+}
+
+#slide2 #slide2_2 li .jQuery {
+    width: 300px;
+}
+
+#slide2 #slide2_2 li .less {
+    width: 300px;
+}
+
+#slide2 #slide2_2 li .angular {
+    width: 300px;
+}
+
+#slide2 #slide2_2 li .gulp {
+    width: 300px;
+}
+
+#slide2 #slide2_2 li .seajs {
+    width: 300px;
+}
+
+#slide2 #slide2_2 li .java {
+    width: 300px;
+}
+
+#slide2 #slide2_2 li .linux {
+    width: 300px;
+}*/
 
 
 /*slide2第二张幻灯片结束*/

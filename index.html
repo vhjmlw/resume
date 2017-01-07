@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>reveal.js</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/league.css">
 
@@ -57,7 +57,7 @@
             <section id="slide2">
                 <section id="slide2_1">
                     <p>专业技能</p>
-                    <ul>
+                    <ul class="fragment fade-down">
                         <li>熟悉雅虎军规及网页性能优化</li>
                         <li>掌握CSS3和HTML5</li>
                         <li>掌握LESS预处理语言</li>
@@ -73,7 +73,28 @@
                     </ul>
                 </section>
                 <section id="slide2_2">
-
+                    <p>技能点</p>
+                    <ul class="fragment fade-down">
+                        <li>
+                            <div class="html">HTML5</div>
+                            <div class="css">CSS3</div>
+                            <div class="javascript">JavaScript</div>
+                            <div class="jQuery">jQuery</div>
+                            <div class="less">LESS</div>
+                            <div class="angular">AngularJS</div>
+                            <div class="gulp">gulp</div>
+                            <div class="seajs">sea.js</div>
+                            <div class="java">Java</div>
+                            <div class="linux">Linux</div>
+                            <div>and so on</div>
+                        </li>
+                    </ul>
+                </section>
+                <section id="slide2_3">
+                    <p>其实我的目标是⬇️</p>
+                </section>
+                <section id="slide2_4">
+                    <div id="container"></div>
                 </section>
             </section>
             <section id="slide3">
@@ -125,13 +146,14 @@
             </section>
             <section id="slide4">
                 <p>I am a coder and i'm maching on</p>
-                <span>点击以下可以了解我更多哦⬇️</span><br>
+                <span>点击以下可以了解更多哦⬇️</span><br>
                 <span><a href="https://github.com/vhjmlw">GitHub</a></span>
                 <span><a href="http://www.jianlei.info">Blog</a></span>
                 <span><a href="https://www.zhihu.com/people/zhang-jian-lei-7">知乎</a></span>
                 <span><a href="https://www.facebook.com/profile.php?id=100005888440355">Facebook</a></span><br>
                 <span><a href="http://stackoverflow.com/users/7356556/%E5%BC%A0%E5%BB%BA%E7%A3%8A">stackoverflow</a></span>
-                <span><a href="https://gold.xitu.io/user/578d802ca633bd0058ac7e9a">掘金</a></span>
+                <span><a href="https://gold.xitu.io/user/578d802ca633bd0058ac7e9a">掘金</a></span><br>
+                <span><a href="http://lei1028362931.wixsite.com/vhjmlw">wix</a></span>
             </section>
         </div>
     </div>
@@ -139,6 +161,9 @@
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/konva.js"></script>
+    <script type="text/javascript" src="js/myGroup.js"></script>
+    <script type="text/javascript" src="js/canvas.js"></script>
 
     <script>
         // More info https://github.com/hakimel/reveal.js#configuration
@@ -251,6 +276,8 @@
             }]
         });
     </script>
+
+
 </body>
 
 </html>
