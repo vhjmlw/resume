@@ -193,9 +193,3 @@ animation.start();
 //设置animateLayer图层的onmouseover和onmouseout事件,当鼠标移入的时候动画的帧数变低,动画变慢
 //当鼠标移出的时候动画的帧数恢复,动画恢复原速度
 //只有当鼠标移入到具体的圆环上面时,事件才会触发,镂空的部分不会触发事件.所以,layer只包含了我们填充的图形,他们之间的部分不算layer的成分,可以看作是镂空的
-animateLayer.on("mouseover", function(event) {
-    framePerSecond = 10;
-});
-animateLayer.on("mouseout", function() {
-    framePerSecond = 20;
-})
