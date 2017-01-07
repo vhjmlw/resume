@@ -44,6 +44,8 @@ s,i,em{font-style:normal;text-decoration:none;}
 	display:none
 }
 /*私有的样式*/
+/*slide1第一张幻灯片开始*/
+/*slide1幻灯片的header*/
 #slide1 #header {
 	position: relative;
 	padding: 0 80px;
@@ -99,3 +101,7 @@ s,i,em{font-style:normal;text-decoration:none;}
 	font-size: 18px;
 	margin: 0;
 }
+/*slide1第一张幻灯片结束*/
+/*slide2第二张幻灯片开始*/
+
+/*slide2第二张幻灯片结束*/

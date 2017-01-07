@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<title>reveal.js</title>
-
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/league.css">
 
@@ -26,32 +26,31 @@
 		<div class="reveal">
 			<div class="slides">
 				<section id="slide1">
-				<header id="header" class="clearfix">
-					<div class="portrait fl" id="portrait"><a href="http://www.jianlei.info"></a></div>
-					<div class="instruction fr">
-						<p>张建磊</p>
-						<!-- <span>1990-06-16</span><br> -->
-						<span>15236288051</span><br>
-						<span>lei1028362931@gmail.com</span>
-					</div>
-				</header>
-				<p>{{ 爱钻研，爱技术 }}</p>
-				<!-- <p>I am a coder and i'm marching on</p> -->
-				<footer id="footer" class="clearfix">
-					<div class="qrcode fl">
-						<img src="images/blog.jpg"	>
-					</div>
-					<div class="instruction fr">
-						<p>河南科技大学</p>
-						<span>2010/9--2014/6</span><br>
-						<span>本科</span><br>
-						<span>中共党员</span>
-					</div>
-					
-				</footer>
-					
+					<header id="header" class="clearfix">
+						<div class="portrait fl" id="portrait"><a href="http://www.jianlei.info"></a></div>
+						<div class="instruction fr">
+							<p>张建磊</p>
+							<!-- <span>1990-06-16</span><br> -->
+							<span>15236288051</span><br>
+							<span>lei1028362931@gmail.com</span>
+						</div>
+					</header>
+					<p>{{ 爱钻研，爱技术 }}</p>
+					<!-- <p>I am a coder and i'm marching on</p> -->
+					<footer id="footer" class="clearfix">
+						<div class="qrcode fl">
+							<img src="images/blog.jpg"	>
+						</div>
+						<div class="instruction fr">
+							<p>河南科技大学</p>
+							<span>2010/9--2014/6</span><br>
+							<span>本科</span><br>
+							<span>中共党员</span>
+						</div>
+					</footer>
+					<aside class="notes">按空格继续哦</aside>
 				</section>
-				<section>Slide 2</section>
+				<section id="slide2">Slide 2</section>
 			</div>
 		</div>
 
@@ -62,7 +61,96 @@
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				history: true,
+				// Display controls in the bottom right corner
+			    controls: true,
+
+			    // Display a presentation progress bar
+			    progress: true,
+
+			    // Display the page number of the current slide
+			    slideNumber: false,
+
+			    // Push each slide change to the browser history
+			    history: true,
+
+			    // Enable keyboard shortcuts for navigation
+			    keyboard: true,
+
+			    // Enable the slide overview mode
+			    overview: true,
+
+			    // Vertical centering of slides
+			    center: true,
+
+			    // Enables touch navigation on devices with touch input
+			    touch: true,
+
+			    // Loop the presentation
+			    loop: true,
+
+			    // Change the presentation direction to be RTL
+			    rtl: false,
+
+			    // Randomizes the order of slides each time the presentation loads
+			    shuffle: false,
+
+			    // Turns fragments on and off globally
+			    fragments: true,
+
+			    // Flags if the presentation is running in an embedded mode,
+			    // i.e. contained within a limited portion of the screen
+			    embedded: false,
+
+			    // Flags if we should show a help overlay when the questionmark
+			    // key is pressed
+			    help: true,
+
+			    // Flags if speaker notes should be visible to all viewers
+			    showNotes: true,
+
+			    // Number of milliseconds between automatically proceeding to the
+			    // next slide, disabled when set to 0, this value can be overwritten
+			    // by using a data-autoslide attribute on your slides
+			    autoSlide: 0,
+
+			    // Stop auto-sliding after user input
+			    autoSlideStoppable: true,
+
+			    // Use this method for navigation when auto-sliding
+			    autoSlideMethod: Reveal.navigateNext,
+
+			    // Enable slide navigation via mouse wheel
+			    mouseWheel: true,
+
+			    // Hides the address bar on mobile devices
+			    hideAddressBar: true,
+
+			    // Opens links in an iframe preview overlay
+			    previewLinks: false,
+
+			    // Transition style
+			    transition: 'zoom', // none/fade/slide/convex/concave/zoom
+
+			    // Transition speed
+			    transitionSpeed: 'default', // default/fast/slow
+
+			    // Transition style for full page slide backgrounds
+			    backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+
+			    // Number of slides away from the current that are visible
+			    viewDistance: 3,
+
+			    // Parallax background image
+			    parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+			    // Parallax background size
+			    parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
+
+			    // Number of pixels to move the parallax background per slide
+			    // - Calculated automatically unless specified
+			    // - Set to 0 to disable movement along an axis
+			    parallaxBackgroundHorizontal: null,
+			    parallaxBackgroundVertical: null,
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
