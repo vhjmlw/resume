@@ -1,0 +1,101 @@
+@chartset "UTF-8"
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; } 
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; }
+img {border:0;	vertical-align:middle;}
+table { border-collapse:collapse; }
+.clearfix:before,.clearfix:after{ 
+    content:""; 
+    display:table; 
+} 
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    *zoom:1;/*IE/7/6*/ 
+} 
+a{color:#666; text-decoration:none; }
+a:hover{color:#921B51;}
+h1,h2,h3,h4,h5,h6{text-decoration:none;font-weight:normal;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+/*span {font-size: 16px;}*/
+/*.reveal .slides span {font-size: 25px;}*/
+/*公共类*/
+.fl {
+	float:left
+}
+.fr {
+	float:right
+}
+.al {
+	text-align:left
+}
+.ac {
+	text-align:center
+}
+.ar {
+	text-align:right
+}
+.hide {
+	display:none
+}
+/*私有的样式*/
+#slide1 #header {
+	position: relative;
+	padding: 0 80px;
+}
+#slide1 #header .portrait {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+	background: url(../images/jianlei.jpg) no-repeat center;
+	background-size: cover;
+	border-radius: 50px;
+	transition: all .5s;
+}
+#slide1 #header .portrait:hover {
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+}
+#slide1 #header .portrait a{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#slide1 #header .instruction p {
+	font-size: 30px;
+}
+#slide1 #header .instruction span {
+	font-size: 18px;
+	line-height: 10px;
+}
+
+/*slide1幻灯片的footer*/
+#slide1 #footer {
+	padding: 0 80px;
+	position: relative;
+}
+#slide1 #footer .qrcode {
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+}
+#slide1 #footer .qrcode img {
+	width: 100px;
+}
+#slide1 #footer .instruction p {
+	font-size: 30px;
+}
+#slide1 #footer .instruction span {
+	font-size: 18px;
+	margin: 0;
+}
